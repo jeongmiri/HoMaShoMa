@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: AppleSDGothicNeoUL;
+	src: url("AppleSDGothicNeoUL.ttf") format('truetype');
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+	font-family: AppleSDGothicNeoUL;
+	color: black;
+	font-size: 0.75em;
+}
+
+#CompnayList {
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+    color: #353535;
+    border: 1px solid #353535;
+}
+
+#invoiceNumberText {
+    width: 489px;
+    height: 30px;
+    padding-left: 10px;
+    color: #353535;
+    border: 1px solid #353535;
+}
+
+#CompnayName, #invoiceNumber{
+  color:black; 
+  font-weight: bold; 
+  margin-right: 20px;
+}
+
+#inquiryTransportation {
+	color:white;
+	border: 0;
+	outline: 0;
+	width: 160px;
+	height: 50px;
+	background-color: #353535;
+	border-radius: 0.35em;
+}
+
+.a {
+	margin: 0px 0px 0px 215px;
+}
+
+.inputBox {
+	border-collapse: collapse;
+	width:600px;
+}
+
+.inputBox th {
+	width: 100px;
+	background-color:white;
+}
+
+.inputBox td {
+	width: 500px;
+	background-color:white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+
+td, th {
+    border: 1px solid #F6F6F6;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #F6F6F6;
+}

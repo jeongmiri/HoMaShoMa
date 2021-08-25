@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: AppleSDGothicNeoUL;
+	src: url("AppleSDGothicNeoUL.ttf") format('truetype');
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+	font-family: AppleSDGothicNeoUL;
+	color: #353535;
+	font-size: 0.75em;
+}
+
+.loginForm {
+	width: 50%;
+	margin:auto;
+	text-align: center;
+	border-radius: 0.5em;
+	border: 1px solid #444444;
+	padding-bottom:2.0em;
+	padding-top:2.0em;
+}
+
+.a {
+	width: 80%;
+	margin: auto;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+th {
+	text-align: left;
+	padding: 10px 0px 10px 10px;
+	border-top: 1px solid #444444;
+	border-left: 1px solid #444444;
+	border-right: none;
+	border-bottom: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px 10px 10px 0px;
+	border-top: 1px solid #444444;
+	border-right: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+input {
+	width:100%;
+	border: none;
+}
+
+.login {
+	width: 100%;
+	height: 50px;
+	border-left: 1px solid #444444; 
+	color: white;
+	background-color: #000000;
+	border: 0;
+	outline: 0;
+}
+.loginbutton {
+	padding: 0px;
+	border:none;
+}
+
+.join {
+	width: 100%;
+	height: 50px;
+	border-left: 1px solid #444444; 
+	color: white;
+	background-color: #8C8C8C;
+	border: 0;
+	outline: 0;
+}
+.joinbutton {
+	padding: 0px;
+	border:none;
+}
